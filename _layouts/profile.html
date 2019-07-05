@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>REI</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>p{text-align:justify;list-style:20px;;font-size:18px;}</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <div class="container">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }} </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+  </div>
+  </nav>
+
+
+  <section class="py-5">
+  <div class="container" style="padding-top:100px;">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/assets/images/home/me1.jpeg" class="img-fluid img-rounded" alt="Responsive image" style="border-radius:50%;border:1px solid purple;">
+          <div class="card" style="width: 100%; margin-top:20px;">
+  <div class="card-body">
+    <h5 class="card-title" style="text-align:center;">Dr Ruth Eneyi Ikwu</h5>
+    <p class="card-text text-center">Post Graduate in Cyber Security with Statictics | Moving into Cyber Security with ML & AI | Loves Food</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><i class="fa fa-globe" style="color:purple;"></i>  eneyi.github.io</li>
+    <li class="list-group-item"><i class="fa fa-envelope" style="color:purple;"></i>  ruth.ikwu@brunel.ac.uk</li>
+  </ul>
+  <div class="card-body" style="margin:0 auto;">
+    <a href="#" class="card-link"><i class="fa fa-github" style="color:purple;"></i></a>
+    <a href="#" class="card-link"><i class="fa fa-google-plus" style="color:red;"></i></a>
+    <a href="#" class="card-link"><i class="fa fa-twitter" style="color:dodgerblue;"></i></a>
+    <a href="#" class="card-link"><i class="fa fa-linkedin" style="color:blue;"></i></a>
+    <a href="#" class="card-link"><img src="/assets/images/home/research_gate.png" alt="" style="width:20px;height:20px;"></a>
+
+  </div>
+</div>
+
+        </div>
+        <div class="col-md-8" style="padding-top:100px;">
+          <h2>Biography</h2>
+          <p>
+            I finished my PhD at the Department of Computer Sciences at Brunel University London. I worked in Defence & Cyber Security (DCS) research group, studying the relationship between cyber attacks and real-world events.
+            Specifically, we <a href="https://arxiv.org/abs/1906.03757" target="_blank">fused data from multiple sources</a> on the web to pin-point identifying events of various layers of the kill-chain. We applied <a href="https://eneyi.github.io/CyberLexicon/site/index.html" target="_blank">NLP to social data </a>to identify 'cyber-related discussions' and built an analytical
+            framework for analysing cyber-related data from multiple sources.
+            </p>
+            <hr>
+            <p>
+              I’m now interested in applying <a href="eneyi.github.io/blog/">ML and AI methods to cyber defence</a>. I have just began investigations into the use of ML in cyber defence and malware prevention.
+              I’m passionate about working with dynamic teams that make little but significant impact in the subject area.
+              This means a steady paced environment with clear cut goals but also flexible to the very dynamic analytical domain (cyber security).
+            </p>
+          <hr>
+          <p>
+            When I’m not in doing research, I contribute to facilitating the inclusion of women in STEM areas as an instructor for <a href="https://www.codefirstgirls.org.uk/" target="_blank">Code First Girls UK</a>. I am especially honoured to be given the opportunity to help young women in the UK
+            build static, dynamic websites, web applications and structured databases. I also contribute to multiple remote python development teams across Africa, United States and the UK.
+          </p>
+          <hr>
+          <p>
+            When I do not feel like participating in intellectual work, you will find me baking, airsofting or in a gym somwhere.
+          </p>
+          <!--
+          <h2>Skills</h2>
+          <p>Add Categories from blog here</p>
+        -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="navbar fixed-bottom">
+  <footer class="footer">
+      <div class="container">
+        <span class="text-muted"><data class="u-url" href="{{ "/" | relative_url }}"></data></span>
+      </div>
+    </footer>
+</div>
+
+</body>
+</html>

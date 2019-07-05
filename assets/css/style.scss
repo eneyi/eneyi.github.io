@@ -1,0 +1,76 @@
+---
+---
+
+
+
+@import "minima";
+@import "/assets/css/fontawesome.min.css";
+
+h1.post-title{text-align:center;color:#400040;font-family:'Merriweather', Georgia, serif;}
+.post-content *{text-align:justify;line-height:25px;}
+.post-content p{color: black;font-family:"Helvetica Neue", Helvetica;font-size:1em}
+.post-content img{margin:auto;}
+.post-content ul {padding-left:10%;}
+.post-content a {color:gray;}
+.post-content a:hover {color:purple;}
+.post-content h2,.post-content h3,.post-content h4,.post-content h5{margin-top:5px;color:#400040;}
+.post-content .highlight, .post-content .highlight *{background:#f2f3f4}
+span.kn, span.k {color:darkgreen;}
+.post-content pre{border-raduis:20px;}
+ul.post-list {
+    list-style-type: none;
+    position: relative;
+}
+ul.post-list:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    width: 2px;
+    height: 100%;
+
+}
+ul.post-list > li {
+    margin: 20px 0;
+    padding-left: 45px;
+}
+ul.post-list > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid purple;
+    left: 0.5px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.post-list li h3 a{color:gray; font-size:18px;}
+.post-content img{display: block; margin-left: auto; margin-right: auto;}
+
+table.dataframe {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+table.dataframe td, table.dataframe th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table.dataframe tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.dt-published::before{content:"\f1e2";color:purple;}
+h2.post-list-heading{display:none;visibility:hidden;}
+#markdown-toc{list-style:none;font-weight:bold;}
+#markdown-toc ul {padding:0;}
+#markdown-toc ul {padding:1px;}
+.highlight, pre, code{background:#f2f2f2;}
+pre {border:0.5px solid gray;}
