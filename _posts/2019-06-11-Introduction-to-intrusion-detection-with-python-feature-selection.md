@@ -8,7 +8,6 @@ author: "Ruth Ikwu"
 ## Introduction
 What variables are most useful in identifying a connection as 'good' or 'bad'? Practically, answering this question requires years of experience and a deep understanding of the problem domain. However, computationally, we can automatically select what variables are most useful by testing which ones 'improves' or 'fails to improve' the overall performance of our prediction model. This process is called 'Feature Selection'. Feature selection is the automated process of selecting attributes of a dataset that are most relevant in predicting a target attribute. Feature selection serves one purpose of reducing the dimension of data which addresses issues of computational complexity and model performance. The goal of feature selection is to obtain a useful subset of the original data that is predictive of the target feature in such a way that useful information is not lost (considering all predictors together).
 
-## Table of Content
 * TOC
  {:toc}
 
