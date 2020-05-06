@@ -9,7 +9,7 @@ comments: true
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <i class="fas fa-calender-alt" style='color:purple;'></i>  {{ page.date | date: date_format }}
+        <i class="fas fa-calendar-alt" style='color:purple;'></i>  {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
         <i class="fa fa-user" style='color:purple;'></i>  <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
