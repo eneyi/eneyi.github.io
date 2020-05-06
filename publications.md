@@ -11,11 +11,13 @@ order: "d"
 <hr>
 
 <ol>
+<!--
 <li>Ikwu Ruth & Panos Louvieris. November 2019. <span style="font-weight:bolder;text-decoration:italics;">"An Ensemble Approach for detecting Node Malware Suceptibility in Computer Networks"</span>.  In Preparation for Multidisciplinary Digital Publishing Institute Journal Of Information </li>
 <br>
 <li>Ikwu Ruth & Panos Louvieris. September 2019. <span style="font-weight:bolder;text-decoration:italics;">"A Taxonomy for Collaborative Cyber Threat Intelligence In Supply Chain Consortia"</span>.  In Preparation @ Multidisciplinary Digital Publishing Institute Journal Of Information </li>
 <br>
-<li>Ikwu Ruth & Panos Louvieris. August 2019. <span style="font-weight:bolder;text-decoration:italics;">"Monitoring ‘Cyber Related’ Discussions in Online Social Platforms"</span>.  Pre-print Ready @ <a href="https://arxiv.org/abs/1907.02383" target="_blank">The ARXIV </a></li>
+-->
+<li>Ikwu Ruth & Panos Louvieris. August 2019. <a href="https://www.c-mric.com/100126"><span style="font-weight:bolder;text-decoration:italics;">"Monitoring ‘Cyber Related’ Discussions in Online Social Platforms"</span></a>. International Journal on Cyber Situational Awareness (IJCSA) Vol 4 Nov 2019. </li>
 <br>
 </ol>
 
