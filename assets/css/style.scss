@@ -4,9 +4,8 @@
 
 
 @import "minima";
-@import "/assets/css/fontawesome.min.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
 
-.wrapper{width:80%; margin:auto;}
 article{width:100%;}
 h1.post-title{text-align:center;color:#400040;font-family:'Merriweather', Georgia, serif;}
 .post-content *{text-align:justify;line-height:25px;}
@@ -77,3 +76,4 @@ h2.post-list-heading{display:none;visibility:hidden;}
 .highlight, pre, code{background:#f2f2f2;}
 pre {border:0.5px solid gray;}
 h1,h2,h3,h4,h5,h6{padding-top:20px; padding-bottom:20px;}
+p{line-height:1.5}
