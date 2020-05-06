@@ -20,7 +20,7 @@ The image below is an overview of the methodological process in this article.
 <br>
 
 <figure>
-<img src="/assets/images/pmurls/methodology.png"></img>
+<img src="/assets/images/pmurls/methodology.png"/>
 <figcaption style="text-align:center;">Analysis Process</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ data=pd.DataFrame(data)
 Our goal is to extract URL characteristics that are important in separating malicious URLs from good URLs. First, let’s look at the relevant parts in the structure of a URL.
 
 <figure>
-<img src="/assets/images/pmurls/typicalurl.png"></img>
+<img src="/assets/images/pmurls/typicalurl.png"/>
 <figcaption style="text-align:center;"> A Typical URL</figcaption>
 </figure>
 
@@ -189,7 +189,7 @@ A summary of all features extracted are shown in the table below:
         </tr>
     </tbody>
 </table>
-
+<br>
 <script src="https://gist.github.com/eneyi/5c0b33129bcbfa366eb9fe79e96c1996.js?file=URLFeaturizer.py"></script>
 
 
@@ -228,7 +228,7 @@ sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
 ```
 
 <figure>
-<img src="/assets/images/pmurls/correlation.png"></img>
+<img src="/assets/images/pmurls/correlation.png"/>
 <figcaption style="text-align:center;"> Feature Cross-Correlation</figcaption>
 </figure>
 
@@ -330,7 +330,7 @@ Unfortunately, since there is no prior knowledge of the right combination of cri
 <script src="https://gist.github.com/eneyi/5c0b33129bcbfa366eb9fe79e96c1996.js?file=parameterTuning.py"></script>
 
 <figure>
-<img src="/assets/images/pmurls/parameter_tuning.png"></img>
+<img src="/assets/images/pmurls/parameter_tuning.png"/>
 <figcaption style="text-align:center;">Parameter Tuning</figcaption>
 </figure>
 
@@ -364,7 +364,7 @@ Image(graph.create_png())
 
 
 <figure>
-<img src="/assets/images/pmurls/tree.png"></img>
+<img src="/assets/images/pmurls/tree.png"/>
 <figcaption style="text-align:center;">Parameter Tuning</figcaption>
 </figure>
 
