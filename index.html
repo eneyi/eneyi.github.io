@@ -1,10 +1,81 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#122c34">
+  <title>Ruth Eneyi Ikwu, PhD | Data Science & Machine Learning</title>
+  <meta name="description" content="Ruth Eneyi Ikwu is a Senior Data Scientist and Machine Learning Engineer working across production ML, NLP, causal modelling and responsible AI.">
+  <link rel="canonical" href="https://eneyi.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ruth Eneyi Ikwu, PhD — Data Science & Machine Learning">
+  <meta property="og:description" content="From applied research to production ML. Explore my experience, open-source code and writing on AI.">
+  <meta property="og:url" content="https://eneyi.github.io/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23122c34'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='44' fill='%23c6f488'%3Er%3C/text%3E%3C/svg%3E">
+  <style>
+    :root{--ink:#122c34;--muted:#52666d;--line:#d7e0e2;--paper:#fff;--tint:#f2f6f7;--accent:#c6f488;--link:#185968}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:2rem}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}a{color:inherit;text-underline-offset:.25em}a:hover{color:var(--link)}a:focus-visible{outline:3px solid #367b90;outline-offset:5px;border-radius:2px}::selection{background:var(--accent);color:var(--ink)}.wrap{width:min(1120px,calc(100% - 96px));margin-inline:auto}.skip{position:absolute;left:1rem;top:-100px;background:white;padding:12px;z-index:10}.skip:focus{top:1rem}.topbar{display:flex;align-items:center;justify-content:space-between;padding:26px 0;border-bottom:1px solid var(--line);gap:24px}.brand{text-decoration:none;font-weight:700;letter-spacing:-.04em;font-size:23px}.brand span{color:#59757d;font-weight:400}nav{display:flex;gap:26px;font-size:14px}nav a{text-decoration:none}nav a:hover{text-decoration:underline}.hero{display:grid;grid-template-columns:1.6fr 1fr;gap:65px;padding:64px 0 52px;align-items:center}.eyebrow{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 20px;color:var(--muted)}h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(3rem,5.7vw,4.6rem);letter-spacing:-.055em;line-height:1.04;margin:0 0 20px}h1 .degree{font-family:Arial,Helvetica,sans-serif;font-size:18px;letter-spacing:0;display:inline-block;vertical-align:middle;border:1px solid var(--line);border-radius:30px;padding:7px 12px;margin-left:6px}.role{font-size:19px;font-weight:600;line-height:1.45;margin:0 0 20px;max-width:470px}.intro{color:var(--muted);max-width:560px;margin:0 0 26px}.actions{display:flex;flex-wrap:wrap;gap:12px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 19px;font-size:14px;font-weight:600;text-decoration:none;border:1px solid var(--ink);border-radius:5px;gap:18px}.button.primary{background:var(--ink);color:white}.button.primary:hover{background:#254954}.button.secondary:hover{background:var(--tint)}.focus{background:var(--ink);color:white;border-radius:7px;padding:29px 30px}.focus .eyebrow{color:var(--accent);margin-bottom:22px}.focus h2{font-family:Georgia,'Times New Roman',serif;font-size:31px;font-weight:400;line-height:1.2;letter-spacing:-.02em;margin:0 0 24px}.focus-item{border-top:1px solid #426069;padding:15px 0 0;margin-top:15px}.focus-item strong{display:block;font-size:15px;font-weight:600}.focus-item p{color:#c6d5d9;font-size:14px;line-height:1.5;margin:5px 0 0}.facts{display:flex;justify-content:space-between;gap:25px;border-block:1px solid var(--line);padding:22px 0}.fact{display:flex;align-items:baseline;gap:12px}.fact strong{font-family:Georgia,'Times New Roman',serif;font-size:27px;font-weight:400;white-space:nowrap}.fact span{font-size:14px;color:var(--muted)}.section{padding:42px 0;border-bottom:1px solid var(--line)}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin-bottom:24px}h2{font-size:24px;font-weight:500;letter-spacing:-.035em;margin:0}.section-head .eyebrow{margin:0}.experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 44px}.job-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}h3{font-size:17px;line-height:1.4;margin:0;font-weight:600}.date{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;color:var(--muted);white-space:nowrap}.job-role{color:var(--link);font-size:14px;margin:5px 0 9px}.job p:last-child{margin:0;font-size:15px;color:var(--muted);line-height:1.65}.toolbox{background:var(--tint);padding:20px 24px;margin-top:28px;display:grid;grid-template-columns:110px 1fr;gap:20px;border-radius:5px}.toolbox h3{font-size:14px}.toolbox p{margin:0;font-size:14px;color:var(--muted)}.projects{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}.project{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:6px;padding:24px;min-width:0;transition:border-color .18s}.project:hover{border-color:#819ba3}.project .eyebrow{font-size:11px;margin:0 0 14px}.project h3{font-size:18px;letter-spacing:-.025em}.project p{font-size:14px;color:var(--muted);margin:12px 0 20px}.project a{font-size:14px;font-weight:600;margin-top:auto;align-self:flex-start}.background{display:grid;grid-template-columns:1fr 1fr;gap:44px}.background h2{margin-bottom:15px}.background p{color:var(--muted);font-size:15px;margin:0 0 10px}.background strong{color:var(--ink);font-weight:600}.background .sub{font-size:14px}.contact{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:38px 0}.contact h2{font-family:Georgia,'Times New Roman',serif;font-size:31px;margin-bottom:5px}.contact p{font-size:14px;color:var(--muted);margin:0}.email{font-size:17px;font-weight:600;overflow-wrap:anywhere}footer{display:flex;justify-content:space-between;gap:20px;padding:22px 0 30px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.socials{display:flex;gap:22px;font-size:14px}.socials a{text-decoration:none}.socials a:hover{text-decoration:underline}
+    @media(min-width:1500px){.hero{padding-top:76px;padding-bottom:64px}}
+    @media(max-width:850px){.wrap{width:calc(100% - 48px)}.hero{gap:30px;grid-template-columns:1.3fr 1fr}.focus{padding:24px}.facts{flex-wrap:wrap}.fact{gap:8px}.fact strong{font-size:24px}.fact span{font-size:13px}.projects{gap:12px}.project{padding:19px}.job-head{display:block}.date{display:block;margin-top:4px}}
+    @media(max-width:620px){.wrap{width:calc(100% - 40px)}.topbar{padding:20px 0}nav{gap:16px;font-size:13px}.hero{grid-template-columns:1fr;padding:39px 0 30px;gap:30px}h1{font-size:3.45rem;max-width:420px}.role{font-size:18px}.focus h2{font-size:28px}.facts{display:grid;gap:12px;padding:22px 0}.fact{gap:15px}.fact strong{min-width:100px}.fact span{font-size:14px}.section{padding:30px 0}.section-head .eyebrow{display:none}.experience-grid,.projects,.background{grid-template-columns:1fr;gap:25px}.job-head{display:flex}.date{margin:0}.toolbox{grid-template-columns:1fr;gap:8px;padding:20px}.project{padding:22px}.contact{align-items:flex-start;flex-direction:column;gap:18px;padding:30px 0}footer{flex-direction:column;gap:14px}.socials{flex-wrap:wrap}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.project{transition:none}}
+    @media print{body{font-size:10pt}.wrap{width:100%}nav,.skip,.actions{display:none}.topbar{padding:0 0 10px}.hero{padding:20px 0;gap:25px}h1{font-size:34pt}.focus{color:var(--ink);background:white;border:1px solid var(--line);padding:15px}.focus .eyebrow,.focus-item p{color:var(--muted)}.focus h2{font-size:20pt}.section{padding:18px 0}.projects{gap:10px}.project{padding:12px}.job,.project,.background{break-inside:avoid}.contact{padding:18px 0}footer{padding:12px 0}.button{display:none}}
+  </style>
 </head>
 <body>
-    <h1>Welcome to my website!</h1>
-    <p>This site is successfully hosted on GitHub Pages.</p>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="topbar">
+      <a class="brand" href="#main" aria-label="Ruth Eneyi Ikwu, home">eneyi<span>.</span></a>
+      <nav aria-label="Main navigation"><a href="#experience">Experience</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="name">
+        <div>
+          <p class="eyebrow" aria-hidden="true">&nbsp;</p>
+          <h1 id="name">Ruth Eneyi<br>Ikwu <span class="degree">PhD</span></h1>
+          <p class="role">Senior Data Scientist &amp;<br>Machine Learning Engineer</p>
+          <p class="intro">I turn complex data into reliable ML systems. My work spans recommendation engines, causal modelling and NLP, combining applied research with the engineering needed to bring models into production.</p>
+          <div class="actions"><a class="button primary" href="mailto:ruth.ikwu@outlook.com">Get in touch <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://www.linkedin.com/in/ruth-i-83a699118/">LinkedIn <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <aside class="focus" aria-label="Areas of focus">
+          <p class="eyebrow">Research → real-world systems</p>
+          <h2>Useful. Reliable.<br>Responsible AI.</h2>
+          <div class="focus-item"><strong>Production machine learning</strong><p>Personalisation, recommendations and automated model lifecycles.</p></div>
+          <div class="focus-item"><strong>Decision science</strong><p>Causal modelling and statistical analysis for better business decisions.</p></div>
+          <div class="focus-item"><strong>Trustworthy AI</strong><p>NLP, model evaluation, interpretability and AI governance.</p></div>
+        </aside>
+      </section>
+      <div class="facts" aria-label="At a glance">
+        <div class="fact"><strong>6+ years</strong><span>in data science &amp; ML</span></div>
+        <div class="fact"><strong>PhD</strong><span>Computer Science · Brunel</span></div>
+        <div class="fact"><strong>End to end</strong><span>research through deployment</span></div>
+      </div>
+      <section class="section" id="experience" aria-labelledby="experience-heading">
+        <div class="section-head"><h2 id="experience-heading">Experience with impact</h2><p class="eyebrow">Industry &amp; research</p></div>
+        <div class="experience-grid">
+          <article class="job"><div class="job-head"><h3>Virgin Media O2</h3><span class="date">2023–present</span></div><p class="job-role">Data Scientist &amp; Machine Learning Engineer</p><p>Productionise recommendation and personalisation systems, deploy call-routing models, and build causal pipelines for discount optimisation. Develop MLOps tooling for CI/CD, monitoring and automated retraining.</p></article>
+          <article class="job"><div class="job-head"><h3>Fujitsu</h3><span class="date">2021–2023</span></div><p class="job-role">Artificial Intelligence Research Scientist</p><p>Led a team of three to develop and deploy Fujitsu’s first URL phishing detector. Applied deep learning to alternative finance data and integrated interpretability, calibration and monitoring into ML pipelines.</p></article>
+          <article class="job"><div class="job-head"><h3>Cardiff University</h3><span class="date">2019–2021</span></div><p class="job-role">Senior Research Scientist · Social Data Science Lab</p><p>Built NLP and data pipelines for research into online human trafficking. Developed entity-extraction and text-similarity models to surface high-risk adverts for analyst review.</p></article>
+          <article class="job"><div class="job-head"><h3>Lyst</h3><span class="date">2018–2019</span></div><p class="job-role">Python Backend Engineer</p><p>Built retailer web crawlers and data pipelines for a global fashion platform, using Python and JavaScript to collect, clean and store product data in MongoDB.</p></article>
+        </div>
+        <div class="toolbox"><h3>Core toolkit</h3><p>Python · SQL · JavaScript · PyTorch · TensorFlow · scikit-learn · Pandas · Hugging Face · LangChain · LangGraph · SHAP · EconML · AWS / SageMaker · GCP / Vertex AI · dbt · Snowflake</p></div>
+      </section>
+      <section class="section" id="work" aria-labelledby="work-heading">
+        <div class="section-head"><h2 id="work-heading">Selected code &amp; writing</h2><p class="eyebrow">Ideas in practice</p></div>
+        <div class="projects">
+          <article class="project"><p class="eyebrow">Agentic AI · Image annotation</p><h3>Divimag Annotator</h3><p>CrewAI-powered agents for image annotation, including detection and counting of visual diversity indicators.</p><a href="https://github.com/eneyi/divimag/tree/main/divimag/agents/annotator">Explore the annotator <span aria-hidden="true">↗</span></a></article>
+          <article class="project"><p class="eyebrow">Python · Video intelligence</p><h3>Looptube</h3><p>A Python library for applying ML and AI to YouTube videos, with video and audio embeddings, summarisation, transcription and translation.</p><a href="https://github.com/looppaio/looptube">Explore the repository <span aria-hidden="true">↗</span></a></article>
+          <article class="project"><p class="eyebrow">Python · Cybersecurity</p><h3>URLPRINT</h3><p>Lexical feature extraction for phishing URL detection.</p><a href="https://github.com/eneyi/URLPRINT">Explore the repository <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </section>
+      <section class="section background" aria-label="Education and community">
+        <div><h2>A research foundation</h2><p><strong>PhD, Computer Science</strong> · Brunel University London, 2019<br>Event Correlation with Artificial Intelligence in CyberSpace.</p><p class="sub">MSc, Information Systems · Brunel University London, 2014</p></div>
+        <div><h2>A broader perspective</h2><p>I lead the education team at <strong>Diverse in AI</strong>, a non-profit collecting and annotating data from the Global South to help make open-source models more representative.</p><p class="sub">I also share ideas on AI through <a href="https://goodrobotsai.medium.com/">Good Robots AI</a>.</p></div>
+      </section>
+      <section class="contact" id="contact" aria-labelledby="contact-heading"><div><h2 id="contact-heading">Let’s put data to work.</h2><p>For machine learning, data science and artificial intelligence opportunities.</p></div><a class="email" href="mailto:ruth.ikwu@outlook.com">ruth.ikwu@outlook.com <span aria-hidden="true">↗</span></a></section>
+    </main>
+    <footer><span>Ruth Eneyi Ikwu, PhD</span><div class="socials"><a href="https://www.linkedin.com/in/ruth-i-83a699118/">LinkedIn</a><a href="https://github.com/eneyi">GitHub</a><a href="https://goodrobotsai.medium.com/">Medium</a></div></footer>
+  </div>
 </body>
 </html>
